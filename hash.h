@@ -1,5 +1,5 @@
 #ifndef HASH_H
-#define    HASH_H
+#define HASH_H
 
 typedef uint32_t (*hash_func)(const void *key, size_t length);
 hash_func hash;
@@ -10,5 +10,5 @@ enum hashfunc_type {
 
 int hash_init(enum hashfunc_type type);
 
-#endif    /* HASH_H */
+#endif   //Hash
 
